@@ -93,6 +93,10 @@
             schema = this.tv4.getSchema(typeId);
         }
 
+        if (typeof json.$schema === 'string') {
+            delete json.$schema;
+        }
+
         return this.tv4.validateResult(
             json,
             schema,
