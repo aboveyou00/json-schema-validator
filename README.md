@@ -1,7 +1,7 @@
-json-schema-validator
-=====================
+[![Build Status](https://travis-ci.org/aboveyou00/json-schema-validator.svg)](https://travis-ci.org/aboveyou00/json-schema-validator)
 
-[![Build Status](https://travis-ci.org/Magomogo/json-schema-validator.svg)](https://travis-ci.org/Magomogo/json-schema-validator)
+@aboveyou00/json-schema-validator
+=====================
 
 This package uses the [tv4](https://www.npmjs.org/package/tv4) JSON Schema validator, and the
 formats provided by the [tv4-formats](https://github.com/ikr/tv4-formats/). It loads all the referenced
